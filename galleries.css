@@ -1,0 +1,168 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background-color: black;
+}
+
+.navbar
+{
+    background-color: black;
+    width: 100%;
+    height: 60px;
+    z-index: 1000;
+}
+
+.navbar ul
+{
+    float: right;
+}
+
+.navbar ul li 
+{
+    float: right;
+    list-style: none;
+    position: relative;
+    right: 70px;
+}
+
+.navbar ul li a 
+{
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 20px 15px;
+}
+
+.navbar ul li ul 
+{
+    display: none;
+    position: absolute;
+    background-color: black;
+    padding: 10px;
+}
+
+.navbar ul li:hover ul  
+{
+    display: block;
+    z-index: 100;
+}
+
+.navbar ul li ul li 
+{
+   width: 100px;
+}
+
+.navbar ul li ul li a 
+{
+    padding: 10px 10px;
+    position: relative;
+    left: 70px;
+}
+
+.navbar ul li ul li a:hover
+{
+    background-color:rgb(156, 156, 156);
+}
+
+.logo
+{
+    width: 200px;
+    position: relative;
+    bottom: 38px;
+    left: 30px;
+}
+
+/*content*/
+.baris
+{
+    display: flex;
+    position: relative;
+    top: 60px;
+    flex-wrap: wrap;
+}
+
+.item
+{
+    flex: 30%;
+    padding: 5px;
+}
+
+.item:hover 
+{
+    transform: translateY(15px);
+}
+
+.item:hover .overlay
+{
+    transition: 1.5s;
+    opacity: 0;
+}
+
+.text
+{
+    color: white;
+    position: relative;
+    text-align: center;
+    bottom: 150px;
+}
+
+.item img 
+{
+    width: 100%;
+    height: 300px;
+}
+
+.deskripsi
+{
+    color: white;
+    position: relative;
+    top: 30px;
+    text-align: center;
+}
+
+.deskripsi h2
+{
+    color: #FF0000;
+}
+
+/* footer */
+
+footer
+{
+    position: relative;
+    clear: both;
+    top: 120px;
+    text-align: center;
+    background-color:rgba(156, 156, 156, 0.8);
+    height: 200px;
+}
+
+.allfoot
+{
+    position: relative;
+    top: 50px;
+}
+
+.desc-foot
+{
+    color: #FF0000;
+}
+
+.desc-foot p 
+{
+    color: black;
+}
+
+.sosmed img
+{
+    width: 25px;
+    margin: 10px;
+    border-radius: 5px;
+}
+

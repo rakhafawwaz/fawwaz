@@ -1,0 +1,279 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background-color: black;
+}
+
+.navbar
+{
+    background-color: black;
+    width: 100%;
+    height: 60px;
+    z-index: 1000;
+}
+
+.navbar ul
+{
+    float: right;
+}
+
+.navbar ul li 
+{
+    float: right;
+    list-style: none;
+    position: relative;
+    right: 70px;
+}
+
+.navbar ul li a 
+{
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 20px 15px;
+}
+
+.navbar ul li ul 
+{
+    display: none;
+    position: absolute;
+    background-color: black;
+    padding: 10px;
+}
+
+.navbar ul li:hover ul  
+{
+    display: block;
+    z-index: 100;
+}
+
+.navbar ul li ul li 
+{
+   width: 100px;
+}
+
+.navbar ul li ul li a 
+{
+    padding: 10px 10px;
+    position: relative;
+    left: 70px;
+}
+
+.navbar ul li ul li a:hover
+{
+    background-color:rgb(156, 156, 156);
+}
+
+.logo
+{
+    width: 200px;
+    position: relative;
+    bottom: 38px;
+    left: 30px;
+}
+
+/* ini untuk image slider */
+
+.slide img 
+{
+    width: 100%;
+    height: 90vh;
+}
+
+.imageslider 
+{
+  width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+a img 
+{
+    width: 40px;
+}
+
+.next 
+{
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.back, .next 
+{
+  top: 45%;
+  width: auto;
+  padding: 15px;
+  margin-top: -45px;
+  cursor: pointer;
+  position: absolute;
+  font-size: 17spx;
+  transition: 0.6s ease;
+}
+
+.back:hover, .next:hover 
+{
+  background-color: rgba(156, 156, 156, 0.8);
+  border-radius: 30px;
+}
+
+.caption 
+{
+  position: absolute;
+  font-size: 40px;
+  padding: 9px 12px;
+  bottom: 350px;
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+
+.desc
+{
+  position: absolute;
+  font-size: 20px;
+  padding: 9px 12px;
+  bottom: 300px;
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+
+/*lore*/
+.lore img 
+{
+    width: 600px;
+}
+
+.lore
+{
+  position: absolute;
+  padding: 50px 300px;
+  width: 100%;
+  text-align: center;
+}
+
+.lore p 
+{
+    position: relative;
+    color: white;
+    font-size: 20px;
+    bottom: 100px;
+}
+
+/* galleries */
+
+.headline
+{
+    color: white;
+    position: relative;
+    top: 800px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.baris
+{
+    display: flex;
+    position: relative;
+    top: 800px;
+}
+
+.item
+{
+    flex: 30%;
+    padding: 5px;
+}
+
+.item img 
+{
+    width: 100%;
+    height: 300px;
+}
+
+/* Heroes */
+.bg
+{
+    background-image: url('Image/BackgroundHomeBesi.jpg');
+    height: 600px;
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.headline-heroes
+{
+    color: white;
+    position: relative;
+    top: 1010px;
+    text-align: center;
+    font-size: 30px;
+    z-index: 100;
+}
+
+.baris-heroes
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 900px;
+}
+
+.baris-heroes img
+{
+    width: 250px;
+    height: 250px;
+}
+
+.item-heroes
+{
+    flex: 27%;
+    padding: 5px;
+}
+
+.name 
+{
+    color: white;
+    text-align: center;
+}
+
+/* footer */
+
+footer
+{
+    position: relative;
+    clear: both;
+    top: 900px;
+    text-align: center;
+    background-color:rgba(156, 156, 156, 0.8);
+    height: 200px;
+}
+
+.allfoot
+{
+    position: relative;
+    top: 50px;
+}
+
+.desc-foot
+{
+    color: #FF0000;
+}
+
+.desc-foot p 
+{
+    color: black;
+}
+
+.sosmed img
+{
+    width: 25px;
+    margin: 10px;
+    border-radius: 5px;
+}

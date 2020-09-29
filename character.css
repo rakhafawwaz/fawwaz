@@ -1,0 +1,337 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background-color: black;
+}
+
+.navbar
+{
+    background-color: black;
+    width: 100%;
+    height: 60px;
+    z-index: 1000;
+}
+
+.navbar ul
+{
+    float: right;
+}
+
+.navbar ul li 
+{
+    float: right;
+    list-style: none;
+    position: relative;
+    right: 70px;
+}
+
+.navbar ul li a 
+{
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 20px 15px;
+}
+
+.navbar ul li ul 
+{
+    display: none;
+    position: absolute;
+    background-color: black;
+    padding: 10px;
+}
+
+.navbar ul li:hover ul  
+{
+    display: block;
+    z-index: 100;
+}
+
+.navbar ul li ul li 
+{
+   width: 100px;
+}
+
+.navbar ul li ul li a 
+{
+    padding: 10px 10px;
+    position: relative;
+    left: 70px;
+}
+
+.navbar ul li ul li a:hover
+{
+    background-color:rgb(156, 156, 156);
+}
+
+.logo
+{
+    width: 200px;
+    position: relative;
+    bottom: 38px;
+    left: 30px;
+}
+
+/* Heroes */
+.bg
+{
+    background-image: url('Image/BackgroundHomeBesi.jpg');
+    height: 600px;
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.headline-heroes
+{
+    color: white;
+    position: relative;
+    top: 80px;
+    text-align: center;
+    font-size: 30px;
+    z-index: 100;
+}
+
+.baris-heroes
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 68px;
+}
+
+.baris-heroes img
+{
+    width: 250px;
+    height: 250px;
+    
+}
+
+.item-heroes
+{
+    flex: 27%;
+    padding: 0px;
+    text-align: center;
+}
+
+.item-heroes img 
+{
+    position: relative;
+    top: 100px;
+    left: 130px;
+}
+
+/*About*/
+.about
+{
+    color: white;
+    position: relative;
+    right: 130px;
+    bottom: 35px;
+}
+
+.name 
+{
+    width: 25%;
+    background-color:white ;
+    position: relative;
+    bottom: 140px;
+    left: 40px;
+    border-radius: 5px;
+}
+
+.ability
+{
+    text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+
+/*Chow chow*/
+.Power
+{
+    width: 50%; 
+    background-color: #FF0000;
+    border-radius: 5px;
+}
+
+.Defense
+{
+    width: 65%; 
+    background-color: #FF0000;
+    border-radius: 5px;
+}
+
+.Stamina
+{
+    width: 70%; 
+    background-color: #FF0000;
+    border-radius: 5px;
+}
+
+.Speed
+{
+    width: 65%; 
+    background-color: #FF0000;
+    border-radius: 5px;
+}
+
+/*jhaow kyun*/
+.Power1
+{
+    width: 70%; 
+    background-color: #FF0000;
+    border-radius: 5px;
+}
+
+.Defense1
+{
+    width: 65%; 
+    background-color: #FF0000;
+    border-radius: 5px;
+}
+
+.Stamina1
+{
+    width: 50%; 
+    background-color: #FF0000;
+    border-radius: 5px;
+}
+
+.Speed1
+{
+    width: 75%; 
+    background-color: #FF0000;
+    border-radius: 5px;
+}
+
+/*liung thong*/
+.Power2
+{
+    width: 65%; 
+    background-color: #FF0000;
+    border-radius: 5px;
+}
+
+.Defense2
+{
+    width: 75%; 
+    background-color: #FF0000;
+    border-radius: 5px;
+}
+
+.Stamina2
+{
+    width: 60%; 
+    background-color: #FF0000;
+    border-radius: 5px;
+}
+
+.Speed2
+{
+    width: 70%; 
+    background-color: #FF0000;
+    border-radius: 5px;
+}
+
+/*louw bouw*/
+.Power3
+{
+    width: 90%; 
+    background-color: #FF0000;
+    border-radius: 5px;
+}
+
+.Defense3
+{
+    width: 80%; 
+    background-color: #FF0000;
+    border-radius: 5px;
+}
+
+.Stamina3
+{
+    width: 60%; 
+    background-color: #FF0000;
+    border-radius: 5px;
+}
+
+.Speed3
+{
+    width: 70%; 
+    background-color: #FF0000;
+    border-radius: 5px;
+}
+
+/*ghuan emping*/
+.Power4
+{
+    width: 80%; 
+    background-color: #FF0000;
+    border-radius: 5px;
+}
+
+.Defense4
+{
+    width: 70%; 
+    background-color: #FF0000;
+    border-radius: 5px;
+}
+
+.Stamina4
+{
+    width: 75%; 
+    background-color: #FF0000;
+    border-radius: 5px;
+}
+
+.Speed4
+{
+    width: 50%; 
+    background-color: #FF0000;
+    border-radius: 5px;
+}
+/* footer */
+
+
+footer
+{
+    position: relative;
+    clear: both;
+    top: 0px;
+    text-align: center;
+    background-color:rgba(156, 156, 156, 0.8);
+    height: 200px;
+}
+
+.allfoot
+{
+    position: relative;
+    top: 50px;
+}
+
+.desc-foot
+{
+    color: #FF0000;
+}
+
+.desc-foot p 
+{
+    color: black;
+}
+
+.sosmed img
+{
+    width: 25px;
+    margin: 10px;
+    border-radius: 5px;
+}

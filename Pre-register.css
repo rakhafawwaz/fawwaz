@@ -1,0 +1,135 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background-color: black;
+}
+
+.navbar
+{
+    background-color: black;
+    width: 100%;
+    height: 60px;
+    z-index: 1000;
+}
+
+.navbar ul
+{
+    float: right;
+}
+
+.navbar ul li 
+{
+    float: right;
+    list-style: none;
+    position: relative;
+    right: 70px;
+}
+
+.navbar ul li a 
+{
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 20px 15px;
+}
+
+.navbar ul li ul 
+{
+    display: none;
+    position: absolute;
+    background-color: black;
+    padding: 10px;
+}
+
+.navbar ul li:hover ul  
+{
+    display: block;
+    z-index: 100;
+}
+
+.navbar ul li ul li 
+{
+   width: 100px;
+}
+
+.navbar ul li ul li a 
+{
+    padding: 10px 10px;
+    position: relative;
+    left: 70px;
+}
+
+.navbar ul li ul li a:hover
+{
+    background-color:rgb(156, 156, 156);
+}
+
+.logo
+{
+    width: 200px;
+    position: relative;
+    bottom: 38px;
+    left: 30px;
+}
+
+.container 
+{
+    background-image: url('Image/pre-regis bg.jpg');
+    height: 100%;
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.center {
+    margin: 5px 465px;
+}
+
+h1 {
+    font-size: 34px;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    color: white;
+}
+
+form {
+    text-align: left;
+}
+
+input {
+    width: 400px;
+    height: 40px;
+}
+
+.gender input {
+    width: 20px;
+}
+
+.submit input
+{
+    width: 200px;
+    position: relative;
+    left: 100px;
+    
+}
+
+.atas img
+{
+    width: 400px;
+}
+
+label{
+    color: white;
+}

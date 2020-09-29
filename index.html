@@ -4,78 +4,191 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-    <link rel="stylesheet" type="text/css" href="HomePage-css.css">
+    <title>HomePage</title>
+    <link rel="stylesheet" type="text/css" href="homepage.css">
+    <link rel="stylesheet" type="text/js" href="homepage.js">
+
 </head>
 
 <body>
+    <!--navbar-->
     <div class="navbar">
+        <a href="homepage.html">
+        <img class="logo" src="Image\Xtream_logo.png">
+        </a>
         <ul>
-            <li class="kiri"><a><b>Bama Studios</b></a></li>
-            <li class="kanan"><a href="Register.html">Join now</a></li>
+            <li><a href="galleries.html">Galleries</a>
+                <ul>
+                    <li><a href="character.html">Characters</a></li>
+                    <li><a href="lore.html">Lore</a></li>
+                </ul>
+            </li>
+            <li><a href="pre-register.html">Pre-register</a></li>
         </ul>
     </div>
 
+    <!--content image slider-->
+    <div class="imageslider">
+
+        <div class="slide fade">
+            <img src="Image\imgslider-1.jpg">
+            <div class="caption"><b>1 vs 1 </b></div>
+            <div class="desc">
+                <p>In this section this game has a role play that fights 1 on 1 with a computer or with a second user
+                    freely choosing the desired character.</p>
+            </div>
+        </div>
+
+        <div class="slide fade">
+            <img src="Image\imgslider-2.jpg">
+            <div class="caption"><b>Open World</b></div>
+            <div class="desc">
+                <p>In this section dalam this game has an <b>Open World</b> feature where this game has a mission to be
+                    completed with a fairly large map.</p>
+            </div>
+        </div>
+
+        <div class="slide fade">
+            <img src="Image\imgslider-3.jpg">
+            <div class="caption"><b>Many Characters</b></div>
+            <div class="desc">
+                <p>In this game has a lot of characters on this website only given 5 main characters that can be used
+                    and has its own mission.</p>
+            </div>
+        </div>
+
+        <div class="button">
+            <a class="back" onclick="plusSlides(-1)">
+                <img src="Image\back.png">
+            </a>
+            <a class="next" onclick="plusSlides(1)">
+                <img src="Image\next.png">
+            </a>
+        </div>
+    </div>
+
+    <!--Lore-->
+    <div class="lore">
+        <img src="Image\Xtream_logo.png">
+        <p>In this game there are 5 main characters who fight for power, they have different strengths and have their own troops. When they began to struggle for power in an area they were brought together and no one knew when that time would occur depending on who was fast in fighting for another territory.</p>
+        <br>
+        <p>The struggle of the five of them did it in a way that only fought and some took sides and many others, of them 5 only have one goal and whether after their goals are achieved will it be better or worse?</p>
+        <br>
+        <p>In this game there are more than 5 different maps that tell the situation of each area that is contested and we can choose the characters themselves, and there is a feature if you have completed all missions for 1 vs 1 that can try all characters.</p>
+    </div>
+
+    <!--Galleries-->
     <div class="headline">
-        <img src="Image\Tas.png">
-        <div class="tulisan">
-            <h1>Bama Studios ?</h1>
-            <p>Bama Studios is backpack manufacture which is <br>
-                the best backpack make in indonesia.<br>
-                With a minimalist design, waterproof and of course with high quality.<br>
-                Browse our catalogue on our website for receive special<br> promo for our member.
-            </p>
-            <button>Catalogue</button>
+        <h2>Galleries</h2>
+    </div>
+    <br>
+    <div class="baris">
+        <div class="item">
+            <img src="Image\galleries-1.jpg">
+        </div>
+        <div class="item">
+            <img src="Image\galleries-2.jpg">
+        </div>
+        <div class="item">
+            <img src="Image\galleries-3.jpg">
         </div>
     </div>
 
-    <div class="hover">
-        <img src="Image\Hover-Image.jpg">
-        <p>New Product from Bama Studios<br>
-        take a look on our catalogue</p>
+    <!--Heroes-->
+    <div class="headline-heroes">
+        <h2>Heroes</h2>
     </div>
-
-    <div class="Baris">
-        <div class="sejajar">
-            <img src="Image\waistpack.jpg">
-            <div class="desc">
-                <h2>Bumper collection</h2>
-                <button>Shop</button>
+    <br>
+    <div class="baris-heroes bg">
+        <div class="item-heroes">
+            <img src="Image\cao cao.png">
+            <div class="name">
+                <p>Chow-Chow</p>
             </div>
         </div>
-        <div class="sejajar">
-            <img src="Image\backpack.jpg">
-            <div class="desc">
-                <h2>Backpack Collection</h2>
-                <button>Shop</button>
+        <div class="item-heroes">
+            <img src="Image\guan ping.png">
+            <div class="name">
+                <p>Ghuan-Emping</p>
             </div>
         </div>
-        <div class="sejajar">
-            <img src="Image\bumper.jpg">
-            <div class="desc">
-                <h2>waistpack Collection</h2>
-                <button>Shop</button>
+        <div class="item-heroes">
+            <img src="Image\ling tong.png">
+            <div class="name">
+                <p>Liung-Thong</p>
             </div>
         </div>
-    </div>
-
-    <div class="comingsoon">
-        <img src="Image\Banner.jpg">
-        <div class="top">
-            <h2>VX 51 MULTICAM®<BR>
-                DARK CAMO</h2>
+        <div class="item-heroes">
+            <img src="Image\Lu_bu.png">
+            <div class="name">
+                <p>Louw-Bouw</p>
+            </div>
         </div>
-        <div class="bottom">
-            <h3>Coming Soon!</h3>
+        <div class="item-heroes">
+            <img src="Image\zhao-yun.png">
+            <div class="name">
+                <p>Jhaow-Kyun</p>
+            </div>
         </div>
     </div>
 
     <footer>
-        <a href="https://www.instagram.com/"><img src="Image\instagram.png"></a>
-        <a href="https://www.twitter.com/"><img src="Image\twitter.png"></a>
-        <a href="https://www.facebook.com/"><img src="Image\facebook.png"></a>
-        <h3>Bama Studios©</h3>
+    <div class="allfoot">
+        <div class="desc-foot">
+            <h2>Connect Us</h2>
+            <p>Follow us on Social Media</p>
+        </div>
+        <div class="sosmed">
+            <a href="https://id-id.facebook.com/"><img src="Image\facebook.png"></a>
+            <a href="https://www.instagram.com/"><img src="Image\instagram.png"></a>
+            <a href="https://twitter.com/login?lang=id"><img src="Image\twitter.png"></a>
+            <a href="https://store.steampowered.com/"><img src="Image\steam.png"></a>
+        </div>
+    </div>
     </footer>
+
+    <script>
+        var formslider = 1;
+        imageshow(formslider);
+
+        function current(n) {
+            imageshow(formslider = n);
+        }
+
+        function plusSlides(n) {
+            imageshow(formslider += n);
+        }
+
+        function imageshow(n) {
+            var i;
+            var page = document.getElementsByClassName("slide");
+            var slides = document.getElementsByClassName("slide");
+            
+            if (n > slides.length) 
+            { 
+                formslider = 1 
+            }
+            
+            if (n < 1) 
+            { 
+                formslider = slides.length 
+            }
+            
+            for (i = 0; i < slides.length; i++) 
+            {
+                slides[i].style.display = "none";
+            }
+
+            for (i = 0; i < page.length; i++) 
+            {
+                page[i].className = page[i].className.replace("active");
+            }
+
+            slides[formslider - 1].style.display = "block";
+            page[formslider - 1].className += " active";
+        }
+    </script>
+
 </body>
 
 </html>
