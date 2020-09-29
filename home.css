@@ -1,0 +1,95 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    font-family: 'Signika', sans-serif;
+    text-align: center;
+}
+
+img
+{
+    width: 100%;
+}
+
+.container
+{
+    margin: 5px auto;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+.navbar 
+{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr;  
+}
+
+.navbar ul
+{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 5px;
+    text-decoration: none;
+    margin: 10px;
+    z-index: 1000;
+}
+
+.navbar a
+{
+    text-decoration: none;
+    display: block;
+    background-color: rgb(0, 0, 0);
+    color:  white;
+    text-align: center;
+    padding: 5px;
+}
+
+.navbar li a:hover
+{
+    text-decoration: none;
+    color: orangered;
+}
+
+.content
+{
+    display: flex;
+    padding: 9.5px;
+}
+
+aside
+{
+    flex: 1;
+    padding: 200px 0;
+}
+
+main
+{
+    flex: 1;
+    padding: 200px 0;
+    text-align: left;
+}
+
+aside h1
+{
+    font-size: 6em;
+    text-align: center;
+}
+
+aside a
+{
+    text-decoration: none;
+    color: orangered;
+}
+
+aside p
+{
+    text-align: center;
+}
+
+
