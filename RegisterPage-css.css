@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(83, 83, 83);
+}
+
+.center {
+    margin: 5px 465px;
+}
+
+h1 {
+    font-size: 34px;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    color: rgb(0, 0, 0);
+}
+
+form {
+    text-align: left;
+}
+
+input {
+    width: 400px;
+    height: 40px;
+}
+
+.gender input {
+    width: 20px;
+}
+
+.submit input
+{
+    width: 200px;
+    position: relative;
+    left: 100px;
+    
+}
